@@ -1,0 +1,77 @@
+/* Base css */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+	font-family: 'open Sans', sans-serif;
+}
+a:hover{text-decoration: none;}
+.section-padding{
+	padding: 88px 0;
+}
+
+.service-box-bg-1{
+ background-image: url(../img/bg-1.jpeg);  
+}
+.service-box-bg-2{
+ background-image: url(../img/bg-2.jpeg);  
+}
+.service-box-bg-3{
+ background-image: url(../img/bg-3.jpeg);  
+}
+
+.service-box-bg {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 220px;
+}
+.service-box-inner {
+    border: 1px solid #r3r3r3;
+    border-top: 0px solid;
+    padding: 20px;
+    text-align: center;
+}
+.single-service-box {
+    position: relative;
+}
+.service-box-more-wrapper {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    text-align: center;
+}
+.service-box-inner h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+p.service-meta {
+    opacity: .5;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 0px;
+}
+a.porderes-btn {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #r3r3r3;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 30px;
+}
